@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clearing Array's</title>
+    <link rel="stylesheet" href="styles/bootstrap4.css">
+</head>
+<body>
+    <header class="text-center">
+        <h1>Clearing Array's</h1>
+    </header>
+    <main class="container">
+        <!-- First way to clear array -->
+        <section>
+            <header>
+                <h2>
+                    1. Clearing Array by []
+                </h2>
+            </header>
+            <div>
+                <pre>
+                    <code>
+let arr = ['name1','name2','name3','name4','name5','name6'];
+arr = [];
+                    </code>
+                </pre>
+            </div>
+        </section>
+
+        <!-- Second way to clear array -->
+        <section>
+            <header>
+                <h2>
+                    2. Clearing Array by setting length to 0
+                </h2>
+            </header>
+            <div>
+                <pre>
+                    <code>
+let arr = ['name1','name2','name3','name4','name5','name6'];
+arr.length = 0;
+                    </code>
+                </pre>
+            </div>
+        </section>
+
+        <!-- Third way to clear array -->
+        <section>
+            <header>
+                <h2>
+                    3. Clearing Array by using Array.Prototype.pop() method
+                </h2>
+            </header>
+            <div>
+                <pre>
+                    <code>
+let arr = ['name1','name2','name3','name4','name5','name6'];
+const output3 =
+while (arr.length) {
+    arr.pop()
+}
+                    </code>
+                </pre>
+            </div>
+            </section>
+        <hr>
+        <h3>Best and fastest way to clear array is by first method.</h3>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
